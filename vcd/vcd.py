@@ -1,6 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
-import grammar
+from . import grammar
 
 class Signal(object):
     def __init__(self, var_type, size, reference, module):
